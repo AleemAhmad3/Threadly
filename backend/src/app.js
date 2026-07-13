@@ -14,6 +14,6 @@ app.use(cookieParser());
 app.use(morgan("dev"));
 app.use(helmetMiddleware);
 
-app.use("/api", routes);
+app.use("/api/v1", routes);
 
 module.exports = app
